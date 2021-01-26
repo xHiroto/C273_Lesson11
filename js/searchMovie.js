@@ -9,7 +9,7 @@ $(document).ready(function(){
        
         
         $.ajax({
-            url:"http://www.omdbapi.com",
+            url:"https://www.omdbapi.com",
             type: "GET",
             data: "t=" + title + "&y=" + year + "&plot=" + plot + "&apikey=19c0fc0b",
             dataType: 'jsonp',
